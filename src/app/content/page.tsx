@@ -78,24 +78,24 @@ export function Blog3() {
 
 // section blog-4 
 
-export function Blog4(){
-    return(
-       <div className="main-blog-4">
-        <h1>Contact Us</h1>
-        <div className="blog4-box">
-            <div className="form">
-                <form>
-                    <input type="text"  id="name" placeholder='Name'/><br />
-                    <input type="number" name="" id="phoneNumber" placeholder='Phone Number'/><br />
-                    <input type="email" name="" id="email" placeholder='Email'/><br />
-                    <input type="text"  id="intrust" placeholder='Intrusted In'/><br />
-                    <textarea name="" id="textarea" placeholder='Massage'></textarea>
-                </form>
+export function Blog4() {
+    return (
+        <div className="main-blog-4">
+            <h1>Contact Us</h1>
+            <div className="blog4-box">
+                <div className="form">
+                    <form>
+                        <input type="text" id="name" placeholder='Name' /><br />
+                        <input type="number" name="" id="phoneNumber" placeholder='Phone Number' /><br />
+                        <input type="email" name="" id="email" placeholder='Email' /><br />
+                        <input type="text" id="intrust" placeholder='Intrusted In' /><br />
+                        <textarea name="" id="textarea" placeholder='Massage'></textarea>
+                    </form>
+                </div>
+                <div className="img"><img src="../images/pic-10.png" alt="" /></div>
             </div>
-            <div className="img"><img src="../images/pic-10.png" alt="" /></div>
+            <button>Send Email -- </button>
         </div>
-        <button>Send Email -- </button>
-       </div>
     )
 }
 
